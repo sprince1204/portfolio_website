@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince kumar</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/b522c9997b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class = "logo">
+                <img src="images/logo-mobile.png" class="mlogo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" id="skip" onclick="closedmenu()"></i>
+                </ul>
+                <i class="fas fa-bars" id="skip" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p id="intro">Hi! I am </p>
+                <h1><span>Prince</span> Kumar<br></h1>
+                <p id="disc">And, i find my inspiration in the world of coding, driven by an unwavering passion to unravel its complexities. As a voyager, I am always eager to embark on new journeys, seeking the unknown and embracing the thrill of exploration</p>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="img" src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm <span>Prince kumar</span>, a fervent engineer passionate about leveraging technoloy to dive innovation. Currently pursuing my underdraduate degree from NIT Rourkela.
+                        Working as a frontend web developer proficient in C++ and JavaScript. While crafting engaging user experiences is my forte, I'm also venturing into backend development
+                        my passion extends to exploring the intricate world of App development and Ethical hacking. <br> <br>Beyond coding, I am passionate about sports and fascinated by the 
+                        science behind technology. Consistently exploring defense news keeps me updated on tech-related developments, while my keen interest in geopolitics and wars fuels my 
+                        curiosity about global dynamics. This multifaceted approach enhances my understanding of the intricate connections between technology, science, and world affairs  </p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            </div>
+                            <div class="tab-contents active-tabs" id="skills">
+                                <ul>
+                                    <li><span>Programming Language</span><br>C++, HTML, CSS, javaScript</li>
+                                    <li><span>Industry Knowledge</span><br>Data structure ans algorthm, OOPS,<br>
+                                    Database Management System</li>
+                                    <li><span>Other Softwares</span><br>SolidWorks, Autocad, Ansys</li>
+                                    <li><span>Languages</span><br>Hindi, English</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>NIT Rourkela</span><br> Bachelor of Technology in Ceramic Engineering <br> 2021-2025 <br> CGPA: 7.20</li>
+                                    <li><span>St. Xavier's Public School</span><br>Intermediate <br>2020 <br>Percentage: 81%</li>
+                                    <li><span>St. Xavier's Public School</span><br>Matriculation <br>2018 <br>Percentage: 82.2% </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="projects">
+                                <ul>
+                                    <li><span>Currency Converter</span><br>
+                                        I've crafted a sleek currency converter using HTML, CSS, and JavaScript, 
+                                        with real-time exchange rates pulled through APIs, providing users with an 
+                                        efficient and up-to-date financial tool. Its intuitive design ensures a
+                                         seamless and user-friendly experience </li>
+                                    <li><span>Typing speed game</span><br>I have design a simple typing speed test which gives
+                                    your typing speed and Accuracy by typing some random quotes</li>
+                                    <li><span>new Project</span><br>Project discription...</li>
+                                </ul>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------projects------------ (this is a project section which you may need after develop multiple projects)-->
+    <!-- <div id="project">
+        <div class="container">
+            <h1 class="sub-title"> Mp Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>project 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae eius fugit soluta asperiores qui hic vitae. At facilis odio beatae maxime, eum possimus error 
+                        ipsa iure. Necessitatibus, deserunt iure?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>project 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae eius fugit soluta asperiores qui hic vitae. At facilis odio beatae maxime, eum possimus error 
+                        ipsa iure. Necessitatibus, deserunt iure?</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <h2>project 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae eius fugit soluta asperiores qui hic vitae. At facilis odio beatae maxime, eum possimus error 
+                        ipsa iure. Necessitatibus, deserunt iure?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!-- -----------------------works--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/currency.png" >
+                    <div class="layer">
+                        <h3>Currency Converter</h3>
+                        <p>It calculate the value of any currency compared to other's country currency</p>
+                            <a href="currency/currency.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/typing.png" >
+                    <div class="layer">
+                        <h3>Typing Speed Test</h3>
+                        <p>You can check your Typing speed and Accuracy by giving a small Test</p>
+                            <a href="typing speed/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Name of project</h3>
+                        <p>Discription of project in detail.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#work" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -----------------contact----------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-brands fa-telegram"></i> sprincekumar1204@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +918709382225</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/princekumar.prince.370/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/prince_sharma_1204/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Sprince120403"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/prince-kumar-5a8b71241/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/sprince12/"><img src="images/leetcode1.png" class="leet"></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <p style="color: #ff004f;">* I will never share your Email with anyone else.</p>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Develop with <i class="fa-solid fa-heart"></i> by Prince</p>
+        </div>
+    </div>
+
+    <!-- --------------------end of contect section with footer---------------- -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabContent of  tabContents){
+                tabContent.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tabs");
+        }
+    </script>
+
+    <script>
+        var sideMeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sideMeu.style.right = "0";
+        }
+        function closedmenu(){
+            sideMeu.style.right = "-200px";
+        }
+    </script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz_SvxAcr4AscGs-jNcdTDLyCq8BuH3R89mu0ltLnI1wguyrm0eqIClyWk-6fX52KoU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
