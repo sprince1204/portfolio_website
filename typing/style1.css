@@ -19,7 +19,8 @@
 
 }
 .container{
-    margin-bottom: 40px;
+    position: fixed;
+    margin-bottom: 20px;
     align-items: flex-end;
     display: flex;
     flex-direction: row;
@@ -73,7 +74,7 @@ button:hover{
     position: fixed;
     text-align: start;
     left: 50%;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-left: -120px;
     transform: translateX(-50%);
     font-size: 20px;
@@ -81,10 +82,10 @@ button:hover{
 }
 .mistakes{
     position: fixed;
-    text-align: center;
+    text-align: start;
     left: 50%;
-    margin-top: 210px;
-    margin-left: 120px;
+    margin-top: 200px;
+    margin-left: 147px;
     transform: translateX(-50%);
     font-size: 20px;
     font-weight: 600;
@@ -99,3 +100,23 @@ button:hover{
 .fail{
     color: #e81c4e;
 }
+#imge{
+    left: 68%;
+    
+    position: fixed;
+    margin-top: 502px;
+    background-color: transparent;
+    z-index: 0;
+    height: 150px;
+    width: 150px;
+}
+.inst{
+    color: #005f73;
+    font-size: 20px;
+    margin-top: 290px;
+    margin-right: 1120px;
+    margin-left: 15px;
+    height: 28rem;
+}
+
+
