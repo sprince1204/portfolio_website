@@ -79,6 +79,8 @@ button:hover{
     transform: translateX(-50%);
     font-size: 20px;
     color: #28786C;
+    z-index: 1;  
+    background-color: transparent;
 }
 .mistakes{
     position: fixed;
@@ -90,6 +92,8 @@ button:hover{
     font-size: 20px;
     font-weight: 600;
     color: #d81e5b;
+    z-index: 1;  
+    background-color: transparent;
 }
 .quote-chars{
     background-color: transparent;
