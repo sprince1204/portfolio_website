@@ -433,6 +433,9 @@ from btn2{
     margin-top: -40px;
     display: block;
 }
+.mail{
+    color: #7378be;
+}
 .mail:hover{
     background-color: #b54769;
     border-radius: 1rem;
